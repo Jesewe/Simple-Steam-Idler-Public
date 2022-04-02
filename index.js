@@ -12,5 +12,5 @@ user.logOn(logOnOptions);
 user.on('loggedOn', () => {
 	console.log(logOnOptions.accountName + ' - Successfully logged on');
 	user.setPersona(1);                 //1 - online, 7 - invisible
-	user.gamesPlayed([730,897450,431960,400,6200,570,10,240,80,322170,4000,4500,20510,41700,477160]);    //List app IDs
+	user.gamesPlayed([730]);    //List app IDs
 });
